@@ -1,0 +1,6 @@
+﻿namespace CatalogAPI.Products.GetProductByCategory
+{
+    public record GetProductByCategoryQuery(string Category) : IQuery<GetProductByCategoryResult>
+    {
+    }
+}
